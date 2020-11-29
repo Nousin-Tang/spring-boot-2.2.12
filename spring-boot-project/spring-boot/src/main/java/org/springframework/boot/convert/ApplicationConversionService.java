@@ -62,6 +62,8 @@ public class ApplicationConversionService extends FormattingConversionService {
 	}
 
 	/**
+	 * 返回共享的默认应用程序ConversionService实例，并在需要时延迟构建它。
+	 * 【经典的单例创建例子】
 	 * Return a shared default application {@code ConversionService} instance, lazily
 	 * building it once needed.
 	 * <p>
